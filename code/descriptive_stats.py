@@ -140,19 +140,17 @@ def print_descriptive_stats_as_tex(data):
         _stats_helper(data, events, 'intensity_of_body_contact', [1], 'IntenseStrong', aggstr)
         _stats_helper(data, events, 'intensity_of_body_contact', [0], 'IntenseWeak', aggstr)
         _stats_helper(data, events, 'intention', [1], 'Intention', aggstr)
-        print ('valence_actor')     # these are just for navigating the output and should be removed later   
+            
         for val_a in ('STRONG_POSITIVE','POSITIVE','NEGATIVE','STRONG_NEGATIVE'):
-            _stats_helper(data, events, 'valence_actor', [val_a], 'Valence_actor' + val_a, aggstr)
-        
-        print ('valence_recipient')    
+            _stats_helper(data, events, 'valence_actor', [val_a], 'Valence_actor' + val_a, aggstr)      
+    
         for val_r in ('STRONG_POSITIVE','POSITIVE','NEGATIVE','STRONG_NEGATIVE'):
             _stats_helper(data, events, 'valence_recipient', [val_r], 'Valence_recipient' + val_a, aggstr)
-        
-        print ('Bodyparts_actor')
+       
         for BP_a in ('HAND','SHOULDER','HEAD','FACE','NAPE','NECK','CHEST','ARM','ABDOMEN','BACK','HIP','BUTTOCKS','LAP','LEG','FOOT'):
             _stats_helper(data, events, 'bodypart_actor', [BP_a], 'bodypart_actor' + BP_a, aggstr)
         
-        print ('Bodyparts_recipient')
+      
         for BP_r in ('HAND','SHOULDER','HEAD','FACE','NAPE','NECK','CHEST','ARM','ABDOMEN','BACK','HIP','BUTTOCKS','LAP','LEG','FOOT'):
             _stats_helper(data, events, 'bodypart_recipient', [BP_r], 'bodypart_recipient' + BP_r, aggstr)
 

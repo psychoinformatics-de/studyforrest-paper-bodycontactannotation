@@ -14,7 +14,7 @@
 
 \begin{document}
 
-%\input{results_def.tex}
+\input{results_def.tex}
 
 \title{A comprehensive description of body contact depicted in the motion
 picture ``Forrest Gump''}
@@ -133,13 +133,102 @@ means of their body contact.
 \section*{Materials and methods}
 % Detailed account of the protocol used to generate the dataset
 
+\section*{Data legend}
+
+For each annotated event, a total of 10 properties were recorded, each of which
+are described in the following sections.
+
+\paragraph{Start and end} The duration of each event is recorded in
+\texttt{start} and \texttt{end} as the number of seconds from movie start (no
+sub-second precision, due to limitations of the video player time display). The
+time-points correspond to the onset and offset of the respective touch. Both
+times can be identical in the case of events with less than one second duration.
+
+\paragraph{Actor and recipient} The identity of a character initiating the body 
+contact is encoded in \texttt{actor} using character labels listed in \citep{LRS+2015}.
+The identify of the character being touched is encoded in the \texttt{sender} column.
+In cases of interpersonal touch being initiated by both parties the event is listed twice with both characters being listed once as actor and recipient respectively.
+
+\paragraph{Body part actor and body part recipient}
+
+The \texttt{Bodypart_actor} and \texttt{Bodypart_recipient} variables contain space-seperated lists of body parts, involved in an event, for actor and recipient (see Table
+\ref{tab:annotationcodes} for a list of possible body parts). 
+
+
+\paragraph{label} The \texttt{label} flag assigns a label to the action that results in a body contact in a particular events. See Table
+\ref{tab:annotationcodes} for a description of all possible labels.
+
+\paragraph{Intensity of body contact} The \texttt{Intensity_of_body_contact} encodes the physical force with which actor and recipient touch eachother (1:~strong,
+0:~weak).
+
+\paragraph{Valence actor and valence recipient}
+The \texttt{valence_actor} and \texttt{valence_recipient} variables encode how an inter-personal touch was rated emotionally be actor and recipient.
+Ratings are measured on a four part Likert-scale ranging from "strong positive" to "strong negative" without a neutral category, thereby being forced-choice for the observer.
+
+\paragraph{Intention} The \texttt{intention} variable encodes whether or not the body contact was initiated intentionally by the actor (1:~yes,
+0:~no).
+
+\paragraph{Audio information}
+\texttt{audio_information} tracks whether there was additional information coming from the the movies audio track that points towards a body contact taking place. Audio cues such as noises were differenciated from parts of the narration directly speaking of an event. The variable is empty when no information is present. 
 
 \section*{Dataset validation}
 % Information about any validation carried out and/or any limitations of the
 % datasets, including any allowances made for controlling bias or unwanted
-% sources of variability.
+% sources of variability. 
+% This probably needs a "other" category for bodyparts and labels if we want to put those in aswell. 
+% Valence could be done in a separate table with summs on the side, which would give additional information about valence and emotional arousal but I have to figure out how to do that in LaTex
+% this entire table calc doesn't work yet because LaTex can't find the numbers for the variables. Maybe it has something to do with the underscore but I'm not sure.
 
-
+\iffalse
+\begin{table*}
+  \centering
+  \begin{tabular}{lrrr}
+    \toprule\\
+    & \multicolumn{3}{c}{\textbf{Event location min. agreement}} \\
+    & \textbf{33\%} & \textbf{66\%} & \textbf{100\%} \\
+    \\\midrule\\
+    Number of events & \AggTwentyNEvents & \AggSixtyNEvents & \AggHundredNEvents \\
+    Mean event duration (s) & \AggTwentyMeanEventDuration & \AggSixtyMeanEventDuration & \AggHundredMeanEventDuration \\
+    Mean event distance (s) & \AggTwentyMeanEventDistance & \AggSixtyMeanEventDistance & \AggHundredMeanEventDistance \\
+    \\\midrule\\
+    \multicolumn{4}{l}{\textit{Body parts used by the actor}\\
+    \multicolumn{4}{l}{\small[majority vote counts and inter-observer agreement (Fleiss' Kappa)]}\\\\
+    Hand & \AggTwentyNbodypart_actorHand\ (\AggTwentyFKbodypart_actorHand) & \AggSixtyNbodypart_actorHand\ (\AggSixtyFKbodypart_actorHand) & \AggHundredNbodypart_actorHand\ (\AggHundredFKbodypart_actorHand)\\
+    Arm & \AggTwentyNbodypart_actorArm\ (\AggTwentyFKbodypart_actorArm) & \AggSixtyNbodypart_actorArm\ (\AggSixtyFKbodypart_actorArm) & \AggHundredNbodypart_actorArm\ (\AggHundredFKbodypart_actorArm)\\
+    Chest & \AggTwentyNbodypart_actorChest\ (\AggTwentyFKbodypart_actorChest) & \AggSixtyNbodypart_actorChest\ (\AggSixtyFKbodypart_actorChest) & \AggHundredNbodypart_actorChest\ (\AggHundredFKbodypart_actorChest)\\
+    \\\midrule\\
+    \multicolumn{4}{l}{\textit{Body parts of the recipients touched}}\\
+    \multicolumn{4}{l}{\small[majority vote counts and inter-observer agreement (Fleiss' Kappa)]}\\\\
+    Hand & \AggTwentyNbodypart_recipientHand\ (\AggTwentyFKbodypart_recipientHand) & \AggSixtyNbodypart_recipientHand\ (\AggSixtyFKbodypart_recipientHand) & \AggHundredNbodypart_recipientHand\ (\AggHundredFKbodypart_recipientHand)\\
+    Arm & \AggTwentyNbodypart_recipientArm\ (\AggTwentyFKbodypart_recipientArm) & \AggSixtyNbodypart_recipientArm\ (\AggSixtyFKbodypart_recipientArm) & \AggHundredNbodypart_recipientArm\ (\AggHundredFKbodypart_recipientArm)\\
+    Chest & \AggTwentyNbodypart_recipientChest\ (\AggTwentyFKbodypart_recipientChest) & \AggSixtyNbodypart_recipientChest\ (\AggSixtyFKbodypart_recipientChest) & \AggHundredNbodypart_recipientChest\ (\AggHundredFKbodypart_recipientChest)
+    Face & \AggTwentyNbodypart_recipientFace\ (\AggTwentyFKbodypart_recipientFace) & \AggSixtyNbodypart_recipientFace\ (\AggSixtyFKbodypart_recipientFace) & \AggHundredNbodypart_recipientFace\ (\AggHundredFKbodypart_recipientFace)
+    \\\\\midrule\\
+    \multicolumn{4}{l}{\textit{Intensity of body contact}}\\
+    \multicolumn{4}{l}{\small[majority vote counts and inter-observer agreement (Fleiss' Kappa)]}\\\\
+    Strong & \AggTwentyNIntenseStrong\ (\AggTwentyFKIntenseStrong) & \AggSixtyNIntenseStrong\ (\AggSixtyFKIntenseStrong) & \AggHundredNIntenseStrong\ (\AggHundredFKIntenseStrong)\\
+    Weak & \AggTwentyNIntenseWeak\ (\AggTwentyFKIntenseWeak) & \AggSixtyNIntenseWeak\ (\AggSixtyFKIntenseWeak) & \AggHundredNIntenseWeak\ (\AggHundredFKIntenseWeak)\\
+    \\\\\midrule\\
+    \multicolumn{4}{l}{\textit{Valence of actors}}\\
+    \multicolumn{4}{l}{\small[majority vote counts and inter-observer agreement (Fleiss' Kappa)]}\\\\
+    Strong Positive & \AggTwentyNValence_actorStrong_Positive\ (\AggTwentyFKValence_actorStrong_Positive) & \AggSixtyNValence_actorStrong_Positive\ (\AggSixtyFKValence_actorStrong_Positive) & \AggHundredNValence_actorStrong_Positive\ (\AggHundredFKValence_actorStrong_Positive)\\
+    Positive & \AggTwentyNValence_actorPositive\ (\AggTwentyFKValence_actorPositive) & \AggSixtyNValence_actorPositive\ (\AggSixtyFKValence_actorPositive) & \AggHundredNValence_actorPositive\ (\AggHundredFKValence_actorPositive)\\
+    Negative & \AggTwentyNValence_actorNegative\ (\AggTwentyFKValence_actorNegative) & \AggSixtyNValence_actorNegative\ (\AggSixtyFKValence_actorNegative) & \AggHundredNValence_actorNegative\ (\AggHundredFKValence_actorNegative)\\
+    Strong Negative & \AggTwentyNValence_actorStrong_Negative\ (\AggTwentyFKValence_actorStrong_Negative) & \AggSixtyNValence_actorStrong_Negative\ (\AggSixtyFKValence_actorStrong_Negative) & \AggHundredNValence_actorStrong_Negative\ (\AggHundredFKValence_actorStrong_Negative)\\
+    \\\\\midrule\\
+    \multicolumn{4}{l}{\textit{Valence of recipients}}\\
+    \multicolumn{4}{l}{\small[majority vote counts and inter-observer agreement (Fleiss' Kappa)]}\\\\
+    Strong Positive & \AggTwentyNValence_recipientStrong_Positive\ (\AggTwentyFKValence_recipientStrong_Positive) & \AggSixtyNValence_recipientStrong_Positive\ (\AggSixtyFKValence_recipientStrong_Positive) & \AggHundredNValence_recipientStrong_Positive\ (\AggHundredFKValence_recipientStrong_Positive)\\
+    Positive & \AggTwentyNValence_recipientPositive\ (\AggTwentyFKValence_recipientPositive) & \AggSixtyNValence_recipientPositive\ (\AggSixtyFKValence_recipientPositive) & \AggHundredNValence_recipientPositive\ (\AggHundredFKValence_recipientPositive)\\
+    Negative & \AggTwentyNValence_recipientNegative\ (\AggTwentyFKValence_recipientNegative) & \AggSixtyNValence_recipientNegative\ (\AggSixtyFKValence_recipientNegative) & \AggHundredNValence_recipientNegative\ (\AggHundredFKValence_recipientNegative)\\
+    Strong Negative & \AggTwentyNValence_recipientStrong_Negative\ (\AggTwentyFKValence_recipientStrong_Negative) & \AggSixtyNValence_recipientStrong_Negative\ (\AggSixtyFKValence_recipientStrong_Negative) & \AggHundredNValence_recipientStrong_Negative\ (\AggHundredFKValence_recipientStrong_Negative)\\
+    \\\bottomrule
+  \end{tabular}
+  \caption{Annotation inter-observer agreement statistics.
+  }
+  \label{tab:validation}
+\end{table*
+\fi
 \section*{Data availability}
 
 \texttt{This section will be auto-generated.}
