@@ -133,9 +133,34 @@ means of their body contact.
 \section*{Materials and methods}
 % Detailed account of the protocol used to generate the dataset
 
+\subsection*{Stimulus}
+
+The annotated stimulus was a slightly shortened ($\approx$\unit[2]{h}) version
+of the movie Forrest~Gump (R.~Zemeckis, Paramount Pictures, 1994), with a dubbed
+German soundtrack, and is identical to the audio-visual movie annotated in
+\cite{LRS+2015,HH2016}. Further details on this particular movie cut, and how
+to reproduce it from commercially available sources, are available in
+\cite{HAK+16}
+
+\subsection*{Observers} %find out age range
+
+Seven observers (six female, age ??) independently annotated the movie. They
+also developed the concept for this annotation.
+
+\subsection*{Procedure} % I think they only annotated touching that was "in the main part of the picture" so nothing in the background since that would be a) tedious and b) super unreliable not sure though
+			% also not sure about them writing down things like people being shown from the front but the posture indicates them touch eachother on their back (like the barscene with Dan) but I think they did
+			% after clarification this has to be put in
+Observers were instructed to watch the movie from beginning to end, replaying
+scenes as often as required, and to detect events involving inter-personal touch.
+Observers had to describe the event by specifying its
+properties via a number of variable settings in a spreadsheet. The software
+video player VLC (\url{http://www.videolan.org/vlc}) was used to watch and
+navigate through the movie.
+
+
 \section*{Data legend}
 
-For each annotated event, a total of 10 properties were recorded, each of which
+For each annotated event, a total of 12 properties were recorded, each of which
 are described in the following sections.
 
 \paragraph{Start and end} The duration of each event is recorded in
@@ -150,7 +175,6 @@ The identify of the character being touched is encoded in the \texttt{sender} co
 In cases of interpersonal touch being initiated by both parties the event is listed twice with both characters being listed once as actor and recipient respectively.
 
 \paragraph{Body part actor and body part recipient}
-
 The \texttt{Bodypart_actor} and \texttt{Bodypart_recipient} variables contain space-seperated lists of body parts, involved in an event, for actor and recipient (see Table
 \ref{tab:annotationcodes} for a list of possible body parts). 
 
@@ -175,6 +199,41 @@ Ratings are measured on a four part Likert-scale ranging from "strong positive" 
 % Information about any validation carried out and/or any limitations of the
 % datasets, including any allowances made for controlling bias or unwanted
 % sources of variability. 
+
+%this is just taken from the irony annotation with slight changes on the last part
+%don't know about copy right stuff but since the procedure is basically identical maybe we can re-use it or just cite the irony paper.
+
+We used an automated procedure to check the annotation records of individual
+observers for errors or potential problems. Observers submitted their
+annotations in tabular form to a script that generated a list of error and
+warning messages. Using this feedback, observers double-checked their
+annotations as often as necessary until no objective errors were found and all
+warning messages were confirmed to be false positives. The tests included, for
+example, plausibility of timing information (no end time before the respective
+start time) or the presence of unknown condition labels.
+
+In order to assess inter-observer agreement of annotations, we used a two-step
+approach. First, the temporal location of events depicting \textit{any}
+relevant property were determined by comparing annotation timing across
+observers. The columns in Table \ref{tab:validation} report agreement
+statistics for events defined by at least one, two, or all three observers
+recording an annotation for the same \texttt{actor} at the same time. In the
+case that individual observers reported events of different length, or with
+only partially overlapping duration, only the time-windows with the minimum
+number of observers reporting an event were considered.
+
+In the second step, we computed Fleiss' Kappa \citep{Fle71} for each individual
+property of an annotation separately with respect to being consistently
+assigned or non-assigned to the identified events (Table \ref{tab:validation}).
+We observe mixed inter-observer agreement of all annotated properties reaching from ``slight'' to
+``substantial'' agreement — according to the conventions put forth by
+\cite{LK77}.
+
+
+
+
+
+
 % This probably needs a "other" category for bodyparts and labels if we want to put those in aswell. 
 % Valence could be done in a separate table with summs on the side, which would give additional information about valence and emotional arousal but I have to figure out how to do that in LaTex
 % this entire table calc doesn't work yet because LaTex can't find the numbers for the variables. Maybe it has something to do with the underscore but I'm not sure.
