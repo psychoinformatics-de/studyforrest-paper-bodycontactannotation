@@ -107,6 +107,7 @@ def get_rater_counts(data, events, prop, categories):
 
 # tex format help
 def _ft(key, value, fmt='s'):
+    key = key.replace('_', '')
     val_tmpl = '{{{{value:{}}}}}'.format(fmt)
     tex = '\\newcommand{{{{\\{{key}}}}}}{{{val_tmpl}}}'.format(val_tmpl=val_tmpl)
     return tex.format(key=key, value=value)
