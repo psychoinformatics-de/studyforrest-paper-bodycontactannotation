@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper,twocolumn]{article}
+\documentclass[10pt,a4paper]{article}
 \usepackage{endfloat}
 \usepackage{f1000_styles}
 \usepackage{listings}
@@ -14,7 +14,7 @@
 
 \begin{document}
 
-\input{results_def.tex}
+%\input{results_def.tex}
 
 \title{A comprehensive description of body contact depicted in the motion
 picture ``Forrest Gump''}
@@ -60,6 +60,7 @@ settings with near real-life complexity.
 
 
 \end{abstract}
+\listoftodos
 \clearpage
 
 %The format of the main body of the article is flexible: it should be concise
@@ -156,6 +157,7 @@ Observers had to describe the event by specifying its
 properties via a number of variable settings in a spreadsheet. The software
 video player VLC (\url{http://www.videolan.org/vlc}) was used to watch and
 navigate through the movie.
+\todo{invisible but implied touch?}
 
 
 \section*{Data legend}
@@ -170,30 +172,30 @@ time-points correspond to the onset and offset of the respective touch. Both
 times can be identical in the case of events with less than one second duration.
 
 \paragraph{Actor and recipient} The identity of a character initiating the body 
-contact is encoded in \texttt{actor} using character labels listed in \citep{LRS+2015}.
+contact is encoded in \texttt{actor} using character labels listed in \cite{LRS+2015}.
 The identify of the character being touched is encoded in the \texttt{sender} column.
 In cases of interpersonal touch being initiated by both parties the event is listed twice with both characters being listed once as actor and recipient respectively.
 
 \paragraph{Body part actor and body part recipient}
-The \texttt{Bodypart_actor} and \texttt{Bodypart_recipient} variables contain space-seperated lists of body parts, involved in an event, for actor and recipient (see Table
+The \texttt{Bodypart\_actor} and \texttt{Bodypart\_recipient} variables contain space-seperated lists of body parts, involved in an event, for actor and recipient (see Table
 \ref{tab:annotationcodes} for a list of possible body parts). 
 
 
 \paragraph{label} The \texttt{label} flag assigns a label to the action that results in a body contact in a particular events. See Table
 \ref{tab:annotationcodes} for a description of all possible labels.
 
-\paragraph{Intensity of body contact} The \texttt{Intensity_of_body_contact} encodes the physical force with which actor and recipient touch eachother (1:~strong,
+\paragraph{Intensity of body contact} The \texttt{Intensity\_of\_body\_contact} encodes the physical force with which actor and recipient touch eachother (1:~strong,
 0:~weak).
 
 \paragraph{Valence actor and valence recipient}
-The \texttt{valence_actor} and \texttt{valence_recipient} variables encode how an inter-personal touch was rated emotionally be actor and recipient.
+The \texttt{valence\_actor} and \texttt{valence\_recipient} variables encode how an inter-personal touch was rated emotionally be actor and recipient.
 Ratings are measured on a four part Likert-scale ranging from "strong positive" to "strong negative" without a neutral category, thereby being forced-choice for the observer.
 
 \paragraph{Intention} The \texttt{intention} variable encodes whether or not the body contact was initiated intentionally by the actor (1:~yes,
 0:~no).
 
 \paragraph{Audio information}
-\texttt{audio_information} tracks whether there was additional information coming from the the movies audio track that points towards a body contact taking place. Audio cues such as noises were differenciated from parts of the narration directly speaking of an event. The variable is empty when no information is present. 
+\texttt{audio\_information} tracks whether there was additional information coming from the the movies audio track that points towards a body contact taking place. Audio cues such as noises were differenciated from parts of the narration directly speaking of an event. The variable is empty when no information is present. 
 
 \section*{Dataset validation}
 % Information about any validation carried out and/or any limitations of the
@@ -222,7 +224,7 @@ case that individual observers reported events of different length, or with
 only partially overlapping duration, only the time-windows with the minimum
 number of observers reporting an event were considered.
 
-In the second step, we computed Fleiss' Kappa \citep{Fle71} for each individual
+In the second step, we computed Fleiss' Kappa \cite{Fle71} for each individual
 property of an annotation separately with respect to being consistently
 assigned or non-assigned to the identified events (Table \ref{tab:validation}).
 We observe mixed inter-observer agreement of all annotated properties reaching from ``slight'' to
