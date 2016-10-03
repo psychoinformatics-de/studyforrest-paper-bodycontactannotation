@@ -1,0 +1,36 @@
+removing 1,4 or 5 improves ratings removing multiples makes them worse so problem is probably not just one person
+
+actor/recp are sometimes swapped
+
+arm/hand/back back/shoulder is one giant mess
+nape/neck aswell
+
+confusion between positive and strong positive especially on actors side
+
+intensity rating is probably confound with emotional arousal with obs 1
+there are a lot of events that only one or two observers listed
+obs 3,5,6 only have flat seconds -> this makes for a lot of 0 duration events
+-> excluding them does not improve data quality
+
+1 and 2 rarely use multiple bodypart tags
+
+half of the labels are all over the place aswell
+
+obs 6 (kathleen) is missing body parts
+-> used different tags haende,schultern,arme,fuesse, gesäß, hüfte,beine (umlaute, plural)
+	-> this is easy to fix
+-> has super fucked up format
+instead of seperating multiple bodyparts with spaces she uses semicolons and uses "" for a single entry
+ 	-> this is gonna be a bit harder
+
+actor/recp confusions only occur when people are unsure if one or both guys initiated the touch
+
+Solutions?:
+make body part labels more streamlined (e.g. upper body, lower body, head, arms, legs)
+maybe drop the emotional arousal part of valence since its pretty unreliable anyways and just do positive/negative
+fix kathleens data by changing the convert script
+
+some events are there in mutiple annotations but have no temporal overlap since they are short and are shifted a couple of seconds (this seems to happen without a pattern and over all observers)
+-> this may happen because people have flat seconds
+
+
