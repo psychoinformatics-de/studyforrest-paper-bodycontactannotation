@@ -1,0 +1,207 @@
+start,end,actor,recp,bp_actor,bp_recp,labels,int_bc,val_actor,val_recp,intention,audio_info
+00:04:42:08,00:04:46:23,man,fg,hand,ruecken,lag,str,pos,pos,ja,narr
+00:04:50:17,00:04:52:12,mg,fg,hand,bein,klei,wea,spos,pos,ja,
+00:05:14:12,00:05:16:15,fg,mg,hand,hand,hah,wea,spos,spos,nein,
+00:05:14:12,00:05:16:15,mg,fg,hand,hand,hah,wea,spos,spos,nein,
+00:05:43:14,00:05:51:20,fg,mg,hand,hand,hah,wea,spos,spos,nein,narr
+00:05:43:14,00:05:51:20,mg,fg,hand,hand,hah,wea,spos,spos,nein,narr
+00:05:56:01,00:05:58:15,mg,fg,hand,huefte,fes,str,pos,pos,ja,aud
+00:06:06:10,00:06:16:20,mg,fg,hand,hand,hah,wea,spos,spos,ja,
+00:06:26:00,00:07:07:19,fg,mg,hand,hand,hah,wea,spos,spos,nein,
+00:06:26:00,00:07:07:19,mg ,fg,hand,hand,hah,wea,spos,spos,nein,
+00:07:07:20,00:07:13:00,mg,fg,hand,schulter,fes,wea,pos,pos,ja,
+00:11:20:07,00:11:21:20,fg,mg,schulter arm,schulter arm,nah,wea,pos,pos,nein,
+00:11:20:07,00:11:21:20,mg ,fg,schulter arm,schulter arm,nah,wea,pos,pos,nein,
+00:11:26:05,00:11:28:03,fg,mg,schulter arm,schulter arm,nah,wea,pos,pos,nein,
+00:11:26:05,00:11:28:03,mg ,fg,schulter arm,schulter arm,nah,wea,pos,pos,nein,
+00:11:29:00,00:11:29:15,mg,fg,hand,arm,zie,str,neg,neg,ja,
+00:11:53:06,00:11:57:24,mg,fg,hand,gesicht,fes,wea,pos,pos,ja,
+00:11:57:05,00:11:57:15,mg,fg,gesicht ,gesicht,kuss ,wea,spos,spos,ja,
+00:12:45:19,00:12:50:00,children,children,arm,arm,nah,wea,pos,pos,nein,
+00:14:00:16,00:14:02:20,jc,fg,hand,hand,haes,str,pos,pos,ja,
+00:14:17:15,00:14:21:11,fg,jc,arm,arm,nah,wea,pos,pos,nein,
+00:14:17:15,00:14:21:11,jc ,fg,arm,arm,nah,wea,pos,pos,nein,
+00:14:33:03,00:14:41:03,jc,fg,hand,hand,hah,wea,spos,spos,ja,narr
+00:14:44:18,00:14:46:00,fg,jc,hand,hand,hah,wea,spos,spos,nein,
+00:14:44:18,00:14:46:00,jc,fg,hand,hand,hah,wea,spos,spos,nein,
+00:15:06:14,00:15:09:03,jc,fg,hand,hand,lag,str,spos,spos,ja,
+00:15:12:10,00:15:13:05,jc,fg,hand,schulter,sb,wea,pos,pos,ja,
+00:17:53:10,00:17:54:01,fg,jc,hand,hand,hah,wea,pos,pos,ja,narr
+00:17:53:10,00:17:54:01,jc ,fg,hand,hand,hah,wea,pos,pos,ja,narr
+00:17:59:00,00:18:02:00,fg,jc,hand,hand,zie,str,pos,pos,ja,narr
+00:17:59:00,00:18:02:00,jc ,fg,hand,hand,zie,str,pos,pos,ja,narr
+00:18:08:15,00:18:10:09,jc,fg,hand,hand,zie,str,pos,pos,ja,
+00:18:56:24,00:19:04:18,jc,fg,arm,brust,sch,wea,spos,spos,ja,
+00:20:26:12,00:20:26:18,man,man,brust,ruecken,remp,str,sneg,sneg,ja,narr
+00:20:48:19,00:20:50:00,man,fg,hand,ruecken,ans,str,pos,pos,ja,
+00:20:51:22,00:20:53:14,men,men,arm,arm,nah,wea,pos,pos,nein,
+00:21:22:04,00:21:22:23,fg,crowd,brust,brust,remp,str,neg,neg,nein,narr
+00:21:30:20,00:21:32:09,man,man,hand,schulter,sb,wea,pos,pos,ja,
+00:21:53:15,00:21:54:14,man,jc,,,hug,str,pos,pos,nein,narr
+00:21:53:15,00:21:54:14,jc ,man,,,hug,str,pos,pos,nein,narr
+00:22:13:19,00:22:19:12,fg,man,hand,gesicht,hit,str,sneg,sneg,ja,narr
+00:22:20:00,00:22:21:14,jc,fg,hand,ruecken,zie,str,neg,neg,ja,narr
+00:22:21:00,00:22:21:18,jc,fg,hand,ruecken,hit,str,neg,neg,ja,aud
+00:22:26:03,00:22:26:20,jc,fg,hand,schulter,weg,str,neg,neg,ja,
+00:22:28:10,00:22:31:06,man,jc,hand,hand,weg,str,sneg,sneg,ja,
+00:23:03:22,00:23:05:07,jc,fg,hand,hand,hah,str,pos,pos,ja,narr
+00:24:28:12,00:24:30:10,jc,fg,hand,hand,hah,str,spos,spos,ja,narr
+00:24:29:00,00:24:38:21,fg,jc,hand,brust,sb,wea,spos,spos,ja,narr
+00:24:56:21,00:25:21:00,jc,fg,kopf,schulter,sch,wea,spos,spos,ja,
+00:25:02:08,00:25:03:03,jc,fg,hand,gesicht,tae,wea,spos,spos,ja,narr
+00:25:15:02,00:25:15:17,jc,fg,gesicht,gesicht,kuss,wea,spos,spos,ja,narr
+00:25:37:19,00:25:40:11,men,men,brust,ruecken,remp,str,neg,neg,nein,narr
+00:26:20:15,00:26:22:18,man,man,hand,hand,haes,wea,pos,pos,ja,
+00:26:24:24,00:26:25:17,man,man,hand,hand,haes,wea,pos,pos,ja,
+00:26:32:22,00:26:34:00,fg,man,hand,hand,haes,wea,pos,pos,ja,
+00:27:20:23,00:27:23:08,man,fg,hand,hand,haes,wea,pos,pos,ja,
+00:27:20:23,00:27:23:08,fg ,man,hand,hand,haes,wea,pos,pos,ja,
+00:27:26:10,00:27:27:13,mg,fg,arm,arm,ein,wea,pos,pos,nein,
+00:27:26:10,00:27:27:13,fg ,mg,arm,arm,ein,wea,pos,pos,nein,
+00:27:28:10,00:27:29:20,mg,fg,hand,kopf,klei ,wea,pos,pos,ja,
+00:28:13:14,00:28:54:02,fg,bb,arm,arm,nah,wea,pos,pos,ja,
+00:28:39:15,00:28:42:17,bb,fg,hand,hand,haes,wea,pos,pos,ja,
+00:25:10:02,00:29:19:01,fg,bb,arm,arm,nah,wea,pos,pos,nein,
+00:29:10:02,00:29:19:01,bb,fg,arm,arm,nah,wea,pos,pos,nein,
+00:33:19:08,00:33:19:11,jc,man,fuss,hand,hit,str,sneg,sneg,ja,narr
+00:33:33:14,00:33:35:06,fg,man,hand,ruecken,weg,str,sneg,sneg,ja,narr
+00:33:35:16,00:33:35:20,man,fg,hand,arm,fes,wea,neg,neg,ja,
+00:33:35:22,00:33:36:18,fg,man,hand,brust,weg,str,sneg,sneg,ja,narr
+00:33:41:05,00:33:44:16,fg,jc,arm brust,ruecken bein,tra,str,pos,sneg,ja,narr
+00:41:59:23,00:43:02:23,bb,fg,ruecken,ruecken,nah,wea,pos,pos,ja,aud
+00:43:25:23,00:43:27:13,jc,man,brust,brust,hug,str,spos,spos,ja,
+00:45:12:22,00:45:14:24,dt,fg,hand,schulter,zie,str,pos,pos,ja,
+00:46:23:20,00:46:26:04,fg,man,hand,schulter,lag,str,pos,pos,ja,narr
+00:46:26:05,00:46:44:04,fg,man,nacken,brust bauch,tra,str,pos,pos,ja,narr
+00:46:50:21,00:46:53:11,fg,man,nacken,brust bauch,tra,str,pos,pos,ja,aud
+00:46:58:17,00:46:59:14,fg,man,hand,ruecken,lag,wea,pos,pos,ja,
+00:47:19:04,00:47:21:02,fg,man,hand,ruecken,abt ,wea,pos,pos,ja,
+00:47:22:07,00:47:24:19,fg,dt,brust hand,brust,lie,wea,pos,neg,ja,
+00:47:24:20,00:47:24:22,dt,fg,arm,brust,weg ,str,neg,neg,ja,
+00:47:26:06,00:47:36:06,dt,fg,hand brust,hand brust,rin,str,neg,pos,,
+00:47:36:21,00:47:41:08,fg,dt,schulter,brust,tra,str,pos,sneg,ja,narr
+00:47:47:00,00:47:50:17,fg,dt,schulter,brust,tra,str,pos,neg,ja,
+00:47:55:21,00:48:11:00,fg,dt,hand,arm,zie,str,pos,neg,ja,narr
+00:48:01:06,00:48:17:12,fg,dt,schulter,brust,tra,str,pos,neg,ja,narr
+00:48:19:08,00:48:30:16,dt,fg,hand,schulter,fes ,str,neg,neg,ja,narr
+00:49:21:08,00:49:36:20,fg,bb,arm,ruecken bein,tra,str,pos,pos,ja,narr
+00:49:49:12,00:49:55:19,fg,bb,arm,ruecken bein,tra,str,pos,pos,ja,narr
+00:50:04:16,00:50:59:17,fg,bb,arm,ruecken bein,tra,str,pos,pos,ja,narr
+00:52:04:05,00:52:06:00,man,dt,hand,hand,hah,wea,pos,neg,ja,narr
+00:52:08:15,00:52:12:16,man,dt,arm,ruecken arm,lag,str,pos,neg,ja,narr
+00:52:12:17,00:52:21:03,man,dt,arm,ruecken gesaess,tra,str,pos,neg,ja,narr
+00:55:09:23,00:55:14:22,man,fg,hand,hand,haes,wea,pos,pos,ja,
+00:55:53:24,00:55:54:09,woman,fg,hand,arm,sb,wea,pos,pos,ja,
+00:55:54:13,00:55:56:07,woman,fg,hand,ruecken,fueh,wea,pos,pos,ja,
+00:55:56:18,00:55:56:22,woman,man,hand,ruecken,sb,wea,pos,pos,ja,
+00:55:57:03,00:55:57:19,woman,fg,hand,arm,sb,wea,pos,pos,ja,
+00:56:00:22,00:56:05:08,man,fg,hand,ruecken huefte,fueh,wea,pos,pos,ja,narr
+00:56:11:03,00:56:11:09,woman,man,hand,arm,fueh,wea,pos,pos,ja,narr
+00:56:12:02,00:56:12:09,woman,man,hand,arm,fueh,wea,pos,pos,ja,narr
+00:56:12:07,00:56:13:21,man,fg,hand,ruecken,fueh,wea,pos,pos,ja,
+00:56:13:08,00:56:14:03,woman,man,hand,ruecken,fueh,wea,pos,pos,ja,narr
+00:56:17:15,00:56:18:20,woman,fg,hand,arm ruecken,fueh,wea,pos,pos,ja,
+00:56:18:21,00:56:19:19,woman,fg,hand,arm,zie,wea,pos,pos,ja,
+00:56:21:18,00:56:22:18,man,fg,hand,arm,sb,wea,pos,pos,ja,
+00:56:57:19,00:56:59:08,woman,fg,hand,arm,fueh,wea,pos,pos,ja,
+00:57:03:05,00:57:04:02,man,fg,hand,ruecken,fueh,wea,pos,pos,ja,
+00:57:04:22,00:57:39:17,crowd,crowd,arm,arm,sb,wea,pos,pos,nein,narr
+00:58:08:14,00:58:10:08,woman,men,arm,arm,weg,wea,neg,neg,ja,
+00:58:13:12,00:58:13:19,woman,man,hand,ruecken,ans,wea,neg,neg,ja,
+00:58:14:23,00:58:15:16,man,man,hand,arm,weg,str,neg,neg,ja,narr
+00:58:14:09,00:58:46:13,crowd,crowd,arm,arm,sb,wea,pos,pos,nein,
+00:58:44:16,00:58:55:19,man,fg,hand arm,schulter,arm,wea,pos,pos,ja,narr
+00:58:56:14,00:59:11:07,crowd,crowd,arme,arm,sb,wea,pos,pos,nein,
+00:59:11:08,00:59:20:22,fg,crowd,hand,arm,ans,wea,neg,neg,nein,narr
+00:59:26:19,00:59:38:04,jc,fg,brust arm,brust arm,hug,str,spos,spos,ja,narr
+00:59:26:19,00:59:38:04,fg,jc,brust arm,brust arm,hug,str,spos,spos,ja,narr
+00:59:40:11,00:59:47:00,jc,fg,hand,arm,fes,wea,spos,spos,ja,
+00:59:54:02,00:59:56:00,man,fg,hand,arme,abt ,wea,neg,neg,ja,
+00:59:56:01,00:59:56:09,jc,man,hand,brust,weg,wea,pos,neg,ja,
+00:59:58:18,01:00:00:03,man,jc,brust,arm,sb,wea,neg,neg,nein,
+01:00:23:16,01:00:24:04,man,man,hand,brust,weg,wea,neg,neg,ja,
+01:00:44:22,01:00:45:17,man,jc,hand,gesicht,fei,str,sneg,sneg,ja,narr
+01:00:54:01,01:00:55:08,fg,man,brust,arm brust,tac,str,sneg,sneg,ja,narr
+01:00:58:23,01:01:01:05,fg,man,hand,gesicht,hit,str,sneg,sneg,ja,narr
+01:01:04:10,01:01:05:09,jc,fg,hand,arm,zie,str,neg,neg,ja,narr
+01:01:06:02,01:01:06:17,jc,man,hand,bauch,tae,wea,pos,neg,ja,
+01:02:03:07,01:02:06:15,jc,fg,hand,schulter,klei,wea,pos,pos,ja,narr
+01:02:25:19,01:02:32:01,jc,fg,arm,arm,ein,wea,pos,pos,ja,narr
+01:04:05:02,01:04:05:06,fg,jc,hand,hand,sb,wea,pos,pos,ja,narr
+01:04:28:24,01:04:33:15,jc,fg,brust arm,brust arm,hug,str,spos,spos,ja,narr
+01:10:52:10,01:10:56:13,dt,fg,hand,ruecken,sb,wea,pos,pos,ja,
+01:11:26:05,01:11:26:14,woman,dt,hand,kopf,sb,wea,pos,pos,nein,
+01:11:37:07,01:11:38:12,woman,dt,gesicht,kopf,kuss,wea,pos,pos,ja,
+01:11:38:05,01:11:40:07,woman,fg,hand,ruecken,sb,wea,pos,pos,ja,
+01:12:24:16,01:12:36:08,women,fg,gesicht,gesicht,kuss,str,pos,pos,ja,narr
+01:15:04:16,01:15:07:11,mg,fg,hand,schulter,fes,wea,spos,pos,ja,
+01:15:06:19,01:15:07:01,mg,fg,gesicht,gesicht,kuss,str,spos,pos,ja,
+01:15:07:02,01:15:08:00,fg,mg,hand,schulter,sb,wea,pos,pos,ja,
+01:15:09:20,01:15:11:02,mg,fg,hand,hand,fueh,wea,pos,pos,ja,
+01:18:09:01,01:18:12:14,crowd,crowd,hand,hand,tanz,wea,pos,pos,nein ,
+01:18:09:01,01:18:10:23,woman,man,hand,hand,tanz,wea,pos,pos,nein,
+01:18:09:01,01:18:10:23,man,woman,hand,hand,tanz,wea,pos,pos,nein,
+01:18:13:24,01:18:15:18,woman,man,schulter,arm,arm,wea,pos,pos,nein,
+01:18:13:24,01:18:15:18,woman,woman,arm,schulter,arm,wea,pos,pos,nein,
+01:18:16:07,01:18:17:04,man,woman,hand,hand,hah,wea,pos,pos,ja,
+01:18:44:02,01:18:45:21,man,jc,hand,ruecken,tae,wea,pos,pos,ja,narr
+01:21:40:00,01:21:41:13,fg,dt,hand,hand,haes,str,spos,spos,ja,
+01:22:53:12,01:23:02:18,crowd,crowd,arm schulter,arm schulter,sb,wea,pos,pos,nein,
+01:23:26:10,01:23:27:20,dt,fg,arm,schulter,sb,wea,pos,pos,nein,
+01:23:33:03,01:23:33:23,dt,fg,arm,schulter,sb,wea,pos,pos,nein,
+01:27:37:06,01:27:42:22,crowd,crowd,arm schulter,arm schulter,sb,wea,pos,pos,nein,
+01:27:58:02,01:27:58:17,woman,man,hand,hand,haes,wea,pos,pos,ja,
+01:28:03:14,01:28:07:14,boy,woman,brust,arm,sb,wea,pos,pos,nein,
+01:28:03:22,01:28:10:08,girl,children,hand,schulter,sb,wea,pos,pos,ja,
+01:30:18:21,01:30:29:21,jc,fg,gesicht arm brust,hals arm brust,hug,str,spos,spos,ja,narr
+01:31:10:19,01:31:13:18,jc,fg,arm,arm,nah,wea,pos,pos,nein,
+01:31:10:19,01:31:13:18,fg ,jc,arm,arm,nah,wea,pos,pos,nein,
+01:31:23:07,01:31:25:22,jc,fg,hand,schulter arm,sb,wea,pos,pos,ja,
+01:31:28:15,01:31:32:03,fg,jc,hand,hand,tanz,str,spos,spos,nein,narr
+01:31:28:15,01:31:32:03,jc ,fg,hand ,hand,tanz,str,spos,spos,nein,narr
+01:31:36:03,01:31:42:12,jc ,fg,hand,hand,tanz,str,spos,spos,ja,narr
+01:31:46:01,01:31:47:21,fg,jc,hand,hand,tanz,str,spos,spos,nein,narr
+01:31:46:01,01:31:47:21,jc,fg,hand,hand,tanz,str,spos,spos,nein,narr
+01:31:48:00,01:31:56:13,fg,jc,arm,arm,nah,wea,spos,spos,nein,narr
+01:31:48:00,01:31:56:13,jc ,fg,arm,arm,nah,wea,spos,spos,nein,narr
+01:31:50:00,01:31:55:05,jc,fg,arm,ruecken huefte,arm,wea,spos,spos,ja,narr
+01:32:20:21,01:32:22:22,jc,fg,hand,ruecken,sb,wea,pos,pos,ja,
+01:32:21:14,01:32:21:20,jc,fg,gesicht,gesicht,kuss,wea,spos,spos,ja,narr
+01:33:48:11,,jc,fg,brust bauch,brust bauch,lie,str,spos,spos,ja,narr
+01:33:52:14,01:33:53:11,jc,fg,gesicht,gesicht,kuss,str,spos,spos,ja,narr
+01:33:54:19,01:33:56:06,jc,fg,hand,huefte,tae,wea,spos,spos,ja,
+01:33:56:19,,fg,jc,gesicht,gesicht,kuss,str,spos,spos,ja,narr
+01:34:03:13,01:34:08:15,fg,jc,bauch brust arm hand,bauch brust ruecken,hug,str,spos,spos,ja,narr
+01:34:09:10,01:34:09:18,jc,fg,gesicht,gesicht,kuss,wea,spos,spos,ja,
+01:34:15:20,01:34:22:07,fg,jc,bauch brust arm hand,bauch brust ruecken,hug,str,spos,spos,ja,narr
+01:38:43:05,01:38:58:17,fg ,men,arm,arm,sb,wea,pos,pos,nein,
+01:38:43:05,01:38:58:17,men,fg,arm,arm,sb,wea,pos,pos,nein,
+01:41:17:17,01:41:27:15,crowd,crowd,arm,arm,sb,wea,pos,pos,nein,
+01:41:47:18,01:42:14:14,crowd,crowd,arm,arm,sb,wea,pos,pos,nein,
+01:42:18:21,01:42:19:01,man,man,arm,arm,sb,wea,pos,pos,nein,
+01:43:09:19,01:43:10:01,fg,woman,hand,hand,sb,wea,pos,pos,nein,
+01:43:24:06,01:43:26:03,jc,fg,brust arm,brust arm,hug,str,spos,pos,ja,narr
+01:44:39:03,01:44:40:17,boy,woman,hand,hand,hah,wea,pos,pos,nein,
+01:44:39:03,01:44:40:17,woman ,boy,hand,hand,hah,wea,pos,pos,nein,
+01:44:40:19,01:44:43:24,jc,boy,arm huefte,bauch bein arm,tra,wea,spos,spos,ja,narr
+01:44:47:21,01:45:03:17,jc,boy,arm huefte,bauch bein arm,tra,wea,spos,spos,ja,
+01:44:54:08,01:44:58:19,jc,boy,hand,brust,tae,wea,pos,pos,ja,
+01:45:02:00,01:45:04:13,jc,boy,arm huefte hand,bauch bein arm,tra,wea,pos,pos,ja,
+01:45:44:20,01:45:45:14,jc,fg,hand,brust,tae,wea,pos,pos,ja,
+01:45:46:01,01:45:49:18,jc,fg,hand,hand,hah,wea,pos,pos,ja,narr
+01:47:59:10,01:48:21:00,woman,fg,hand,schulter,sb,wea,pos,pos,ja,
+01:48:22:20,01:48:30:17,jc,fg,hand,hals brust,klei,wea,pos,pos,ja,narr
+01:49:17:24,01:49:22:04,dt,woman,arm,schulter,arm,wea,spos,spos,ja,
+01:49:34:22,01:49:35:16,jc,dt,gesicht,gesicht,kuss,wea,spos,spos,ja,narr
+01:49:47:00,01:49:49:08,jc,boy,hand,arm,zie,wea,pos,pos,ja,
+01:49:49:22,01:49:59:02,fg,jc,hand,hand,hah,wea,pos,pos,ja,
+01:49:49:22,01:49:59:02,jc,fg,hand ,hand,hah,wea,spos,spos,ja,
+01:49:55:16,01:49:59:02,dt,woman,hand,schulter,tae,wea,spos,spos,ja,
+01:50:02:04,01:50:07:14,fg ,jc,hand,hand,hah,wea,spos,spos,ja,narr
+01:50:02:04,01:50:07:14,jc,fg,hand,hand,hah,wea,spos,spos,ja,narr
+01:50:06:24,01:50:13:09,fg,boy,hand,hand,hah,wea,spos,spos,ja,narr
+01:50:43:02,01:50:44:03,jc,fg,hand,bein,tae,wea,pos,pos,ja,
+01:52:04:17,01:52:07:03,jc,fg,hand,hand,hah,wea,spos,spos,ja,narr
+01:53:02:23,01:53:03:21,fg,boy,gesicht,kopf,kuss,wea,spos,spos,ja,
+01:55:55:23,01:56:05:14,fg,boy,arm,arm,sb,wea,pos,pos,nein,
+01:56:09:05,01:56:10:01,fg,boy,arm,arm,sb,wea,pos,pos,nein,

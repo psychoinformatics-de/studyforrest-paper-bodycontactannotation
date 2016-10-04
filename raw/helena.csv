@@ -1,0 +1,307 @@
+start;end;actor;recp;bp_actor;bp_recp;labels;int_bc;val_actor;val_recp;intention;audio_info
+00:04:42;00:04:44;man;fg;arm brust hand;bein gesaess ruecken;lag;wea;pos;neg;ja;
+00:04:46;00:04:47;man;fg;hand;brust ruecken;lag;str;pos;neg;ja;aud narr
+00:04:50;00:04:52;mg;fg;hand;gesaess;klei;wea;pos;pos;ja;
+00:05:14;00:05:16;fg;mg;hand;hand;hah;wea;pos;pos;ja;
+00:05:14;00:05:16;mg;fg;hand;hand;hah;wea;pos;pos;ja;
+00:05:43;00:05:52;fg;mg;hand;hand;hah;wea;pos;pos;ja;
+00:05:43;00:05:52;mg;fg;hand;hand;hah;wea;pos;pos;ja;
+00:05:52;00:05:53;mg;fg;hand;hand;zie;wea;neg;neg;ja;
+00:05:55;00:05:57;mg;fg;arm brust hand;arm gesaess ruecken;zie;str;sneg;neg;ja;
+00:05:59;00:06:01;mg;fg;brust schulter;arm bauch ruecken;zie;str;sneg;neg;ja;
+00:06:03;00:06:05;mg;fg;arm brust hand;bein huefte ;lag;wea;neg;neg;ja;
+00:06:06;00:06:16;fg;mg;hand;hand;hah;wea;pos;pos;ja;
+00:06:06;00:06:16;mg;fg;hand;hand;hah;wea;pos;pos;ja;
+00:06:26;00:07:08;fg;mg;hand;hand;hah;wea;pos;pos;ja;
+00:06:26;00:07:08;mg;fg;hand;hand;hah;wea;pos;pos;ja;
+00:07:08;00:07:13;mg;fg;hand;schulter;fes;wea;pos;pos;ja;
+00:07:13;00:07:14;mg;fg;hand;schulter brust;klop;wea;pos;pos;ja;
+00:11:52;00:11:58;mg;fg;hand;gesicht;fes;wea;pos;pos;ja;
+00:11:57;00:11:58;mg;fg;gesicht;gesicht;kuss;wea;pos;pos;ja;
+00:11:58;00:11:58;mg;fg;hand;schulter;sb;wea;pos;pos;ja;
+00:11:58;00:12:00;mg;fg;hand;ruecken schulter;lag;wea;pos;pos;ja;
+00:12:00;00:12:01;mg;fg;hand;arm;fes;wea;pos;pos;ja;
+00:14:00;00:14:02;jc;fg;hand;hand;haes;wea;pos;pos;ja;narr
+00:14:17;00:14:21;fg;jc;arm huefte schulter;arm huefte schulter;nah;wea;pos;pos;nein;
+00:14:17;00:14:21;jc;fg;arm huefte schulter;arm huefte schulter;nah;wea;pos;pos;nein;
+00:14:33;00:14:34;jc;fg;arm hand;arm hand;hah;wea;pos;pos;ja;
+00:14:34;00:14:35;jc;fg;arm hand;arm hand;lag;wea;pos;pos;ja;
+00:14:36;00:14:46;jc;fg;arm hand;arm hand;hah;wea;pos;pos;ja;narr
+00:15:06;00:15:09;jc;fg;hand;hand;lag;str;neg;neg;ja;
+00:15:12;00:15:13;jc;fg;hand;schulter;klop;wea;neg;neg;ja;
+00:17:53;00:17:54;jc;fg;hand;hand;fueh;wea;neg;neg;ja;narr
+00:17:59;00:18:02;jc;fg;hand;hand;fueh;wea;neg;neg;ja;narr
+00:18:03;00:18:05;jc;fg;hand;hand;fueh;wea;neg;neg;ja;
+00:18:07;00:18:08;jc;fg;hand;hand;fueh;wea;neg;neg;ja;
+00:18:10;00:18:11;jc;fg;hand;hand;lag;wea;neg;neg;ja;
+00:18:41;00:18:41;oldwoman;jc;hand;schulter;sb;wea;pos;pos;ja;
+00:18:56;00:19:04;jc;fg;arm hand;arm brust;hug;wea;pos;pos;ja;
+00:20:26;00:20:26;man;man;arm bauch brust gesicht hand huefte;arm gesaess huefte ruecken;tac;str;neg;neg;nein;aud narr
+00:20:48;00:20:49;man;fg;hand;ruecken;ans;str;pos;pos;ja;
+00:20:51;00:20:53;man;man;arm;arm;sb;wea;pos;pos;nein;
+00:20:59;00:20:59;man;man;schulter;bauch kopf;tac;str;neg;neg;nein;aud
+00:20:59;00:20:59;man;man;bauch kopf;schulter;tac;str;neg;neg;nein;aud
+00:21:07;00:21:08;man;man;hand;schulter;fes;wea;pos;pos;ja;
+00:21:10;00:21:10;man;man;arm ruecken schulter;arm brust hand schulter;tac;str;neg;neg;nein;narr
+00:21:10;00:21:10;man;man;arm brust hand schulter;arm ruecken schulter;tac;str;neg;neg;nein;
+00:21:22;00:21:22;fg;crowd;schulter;schulter;remp;str;pos;neg;nein;aud narr
+00:21:26;00:21:32;man;man;hand;schulter nacken;fes;wea;pos;pos;ja;
+00:21:31;00:21:32;man;man;hand;arm;klop;str;pos;pos;ja;
+00:21:51;00:21:54;jc;man;arm brust gesicht hand;arm brust gesicht ruecken;hug;wea;pos;pos;ja;narr
+00:21:51;00:21:54;man;jc;arm brust gesicht ruecken;arm brust gesicht hand  ;hug;wea;pos;pos;ja;narr
+00:22:14;00:22:15;fg;man;hand;bauch;hit;str;neg;sneg;ja;aud narr
+00:22:15;00:22:16;fg;man;hand;bauch;hit;str;neg;sneg;ja;aud narr
+00:22:17;00:22:18;fg;man;hand;bauch;hit;str;neg;sneg;ja;narr
+00:22:18;00:22:19;fg;man;hand;bauch;hit;str;neg;sneg;ja;narr
+00:22:19;00:22:20;fg;man;hand;bauch;hit;str;neg;sneg;ja;narr
+00:22:19;00:22:21;jc;fg;arm hand;ruecken schulter;weg;str;sneg;neg;ja;
+00:22:23;00:22:24;jc;man;arm hand;bauch;sb;wea;neg;neg;ja;
+00:22:26;00:22:27;jc;fg;hand;schulter brust;weg;str;neg;neg;ja;
+00:22:27;00:22:28;jc;man;hand;brust;sb;wea;neg;sneg;ja;
+00:22:28;00:22:28;man;jc;hand;hand;weg;str;sneg;sneg;ja;
+00:22:29;00:22:29;jc;man;hand;bauch;sb;wea;neg;sneg;ja;
+00:22:29;00:22:29;man;jc;arm;hand;weg;wea;sneg;neg;ja;
+00:22:30;00:22:30;jc;man;hand;brust;sb;wea;neg;sneg;ja;
+00:22:30;00:22:30;man;jc;arm hand;arm bauch ;weg;str;sneg;sneg;ja;
+00:23:02;00:23:04;jc;fg;hand;hand;fueh;wea;neg;neg;ja;narr
+00:24:27;00:24:29;jc;fg;hand;hand;lag;wea;pos;spos;ja;narr
+00:24:38;00:24:39;fg;jc;hand;hand;zie;wea;neg;pos;ja;narr
+00:24:56;00:25:05;jc;fg;arm brust gesicht hand;brust gesicht nacken schulter;nah;wea;spos;pos;ja;narr
+00:25:02;00:25:02;jc;fg;hand;gesicht;sch;wea;spos;pos;ja;aud narr
+00:25:15;00:25:16;jc;fg;gesicht;gesicht;kuss;wea;spos;spos;ja;
+00:26:20;00:26:22;man;man;hand;hand;haes;wea;pos;spos;ja;
+00:26:24;00:26:26;man;man;hand;hand;haes;wea;pos;spos;ja;
+00:26;00:26;man;fg;hand;hand;haes;wea;pos;neg;ja;
+00:27:20;00:27:23;man;fg;hand;hand;haes;wea;pos;pos;ja;
+00:27:25;00:27:27;fg;mg;arm;arm hand schulter;nah;wea;pos;spos;ja;
+00:27:25;00:27:27;mg;fg;arm hand schulter;arm;nah;wea;spos;pos;ja;
+00:27:28;00:27:29;mg;fg;hand;kopf;klei;wea;pos;pos;ja;
+00:27:30;00:27:32;man;fg;hand;schulter;klop;wea;pos;pos;ja;
+00:28:14;00:28:14;fg;bb;schulter;schulter;sb;wea;pos;pos;nein;
+00:28:39;00:28:43;bb;fg;hand;hand;haes;wea;pos;pos;ja;
+00:32:16;00:32:16;man;woman;hand;gesaess;klop;wea;pos;pos;ja;
+00:33:19;00:33:19;jc;man;fuss;hand;weg;str;neg;neg;ja;narr
+00:33:33;00:33:34;fg;man;hand;nacken;weg;str;neg;sneg;ja;
+00:33:35;00:33:35;man;fg;hand;schulter;fes;wea;neg;neg;ja;narr
+00:33:36;00:33:37;fg;man;hand;brust;weg;str;neg;sneg;ja;narr
+00:33:41;00:33:44;fg;jc;arm bauch hand;bein ruecken;tra;str;pos;neg;ja;narr
+00:33;00:33;jc;fg;hand;brust;weg;str;neg;neg;ja;
+00:36:54;00:36:55;bb;fg;schulter;schulter;sb;wea;pos;pos;nein;
+00:36:54;00:36:55;fg;bb;schulter;schulter;sb;wea;pos;pos;nein;
+00:40:06;00:40:07;dt;man;hand;schulter;ans;wea;neg;neg;ja;
+00:41:39;00:41:45;bb;fg;arm;arm;nah;wea;neg;neg;nein;
+00:41:39;00:41:45;fg;bb;arm;arm;nah;wea;neg;neg;nein;
+00:41:59;00:42:00;bb;fg;hand;schulter;ans;wea;pos;neg;ja;
+00:42:02;00:43:03;bb;fg;ruecken schulter;ruecken schulter;nah;wea;pos;pos;ja;
+00:42:06;00:42:06;bb;fg;kopf;kopf;sb;wea;pos;pos;nein;
+00:42:06;00:42:06;fg;bb;kopf;kopf;sb;wea;pos;pos;nein;
+00:43:26;00:43:27;jc;man;arm bauch brust gesicht hand hals nacken schulter;arm bauch brust gesicht hand hals ruecken;hug;wea;pos;pos;ja;
+00:44:43;00:44:43;man;man;hand;schulter;sb;wea;sneg;sneg;nein;
+00:44:46;00:44:47;man;man;hand;arm;ans;wea;sneg;sneg;ja;
+00:45:13;00:45:15;dt;fg;hand;schulter;lag;str;sneg;neg;ja;
+00:46:23;00:46:24;fg;man;hand;schulter;lag;str;neg;sneg;ja;aud narr
+00:46:25;00:46:30;fg;man;arm bauch brust hand hals nacken ruecken schulter;arm bauch bein brust huefte;tra;str;neg;sneg;ja;narr
+00:46:31;00:46:42;fg;man;arm bauch brust hand hals nacken ruecken schulter  ;arm bauch bein brust huefte;tra;str;neg;sneg;ja;
+00:46:43;00:46:44;fg;man;arm nacken ruecken schulter;arm brust hand ;lag;wea;sneg;sneg;ja;
+00:46:44;00:46:45;fg;man;hand;bauch;weg;wea;neg;neg;ja;aud narr
+00:46:49;00:46:52;fg;man;arm nacken ruecken  schulter;arm bauch bein huefte ;tra;str;sneg;sneg;ja;
+00:46:53;00:46:53;fg;man;hand;bein;sb;wea;neg;sneg;ja;
+00:46:54;00:46:55;fg;man;hand;bein;sb;wea;neg;sneg;ja;
+00:46:58;00:46:59;fg;man;hand;schulter;lag;wea;sneg;sneg;ja;aud
+00:47:00;00:47:01;fg;man;hand;brust;lag;str;neg;sneg;ja;
+00:47:01;00:47:02;fg;man;hand;huefte;sb;wea;neg;sneg;ja;
+00:47:18;00:47:19;fg;man;arm bauch brust hals nacken;schulter;fes;wea;sneg;sneg;ja;
+00:47:19;00:47:20;fg;man;gesicht;gesicht;ans;str;sneg;sneg;ja;
+00:47:21;00:47:24;fg;dt;arm brust hand;bauch;fes;wea;neg;neg;ja;
+00:47:24;00:47:25;dt;fg;arm;brust hals ;weg;str;sneg;neg;ja;
+00:47:26;00:47:31;fg;dt;hand;bauch;klei;wea;neg;neg;ja;aud narr
+00:47:32;00:47:33;dt;fg;arm hand ;brust ;weg;str;sneg;neg;ja;
+00:47:33;00:47:36;fg;dt;arm brust hand;arm brust hand;rin;str;neg;sneg;ja;
+00:47:33;00:47:36;dt;fg;arm brust hand;arm brust hand ;rin;str;sneg;neg;ja;
+00:47:36;00:47:36;fg;dt;hand;brust;lag;str;neg;sneg;ja;narr
+00:47:36;00:47:40;fg;dt;nacken ruecken;arm bauch hand ;tra;str;neg;sneg;ja;
+00:47:45;00:47:50;fg;dt;arm hand nacken ruecken schulter;arm bauch bein huefte;tra;str;neg;sneg;ja;
+00:47:50;00:47:51;fg;dt;arm hand;bein;lag;wea;sneg;sneg;nein;
+00:47:56;00:47:56;fg;dt;hand;schulter;fes;wea;sneg;sneg;ja;
+00:47:58;00:48:00;fg;dt;hand;hand;zie;str;neg;sneg;ja;aud narr
+00:48:01;00:48:16;fg;dt;arm hand nacken ruecken schulter;arm bauch bein huefte;tra;str;neg;sneg;ja;
+00:48:17;00:48:19;fg;dt;hand;huefte;lie;wea;neg;sneg;nein;
+00:48:19;00:48:30;dt;fg;hand;schulter;fes;str;sneg;sneg;ja;narr
+00:48:58;00:49:00;fg;bb;hand;schulter;tae;wea;sneg;neg;ja;
+00:49:21;00:49:25;fg;bb;arm bauch brust hand schulter;arm hand ruecken;lag;str;sneg;sneg;ja;
+00:49:25;00:49:36;fg;bb;arm hand nacken schulter;arm bein hand;tra;str;sneg;sneg;ja;narr
+00:49:37;00:49:56;fg;bb;arm bauch hand schulter;arm bauch bein ruecken;tra;str;sneg;sneg;ja;
+00:50:04;00:50:13;fg;bb;arm bauch hand nacken schulter;arm bein hand ruecken;tra;str;sneg;sneg;ja;narr
+00:50:13;00:50:59;fg ;bb;bauch nacken schulter;arm hand ruecken;tra;wea;sneg;sneg;ja;narr
+00:52:04;00:52:05;man;dt;hand;hand;lag;wea;pos;neg;ja;
+00:52:06;00:52:07;man;dt;hand;hand;lag;wea;pos;neg;ja;
+00:52:07;00:52:09;man;dt;arm hand;ruecken;lag;wea;pos;neg;ja;narr
+00:52:09;00:52:13;man;dt;arm hand;ruecken;lag;str;pos;neg;ja;narr
+00:52:13;00:52:20;man;dt;arm brust hand ;bein ruecken;tra;str;pos;neg;ja;
+00:55:05;00:55:07;man;fg;hand;nacken;klei;wea;pos;pos;ja;narr
+00:55:10;00:55:15;man;fg;hand;hand;haes;wea;pos;pos;ja;
+00:55:52;00:55:56;woman;fg;hand;arm ruecken ;fueh;wea;pos;pos;ja;narr
+00:55:56;00:55:56;woman;man;hand;arm;sb;wea;pos;pos;ja;
+00:55:57;00:55:57;woman;fg;hand;arm;fueh;wea;pos;pos;ja;
+00:56:01;00:56:05;man;fg;hand;bauch ruecken;fueh;wea;pos;pos;ja;
+00:56:11;00:56:11;woman;man;hand;schulter;sb;wea;pos;pos;ja;
+00:56:12;00:56:12;woman;man;hand;arm;sb;wea;pos;pos;ja;
+00:56:12;00:56:13;man;fg;hand;ruecken;fueh;wea;pos;pos;ja;
+00:56:13;00:56:13;woman;man;hand;schulter;sb;wea;pos;pos;ja;
+00:56:16;00:56:16;woman;man;hand;arm;sb;wea;pos;pos;ja;
+00:56:17;00:56:18;woman;fg;hand;arm;weg;wea;pos;pos;ja;
+00:56:19;00:56:20;woman;fg;hand;arm;fueh;wea;pos;pos;ja;
+00:56:19;00:56:20;woman;fg;hand;schulter;klop;wea;pos;pos;ja;
+00:56:22;00:56:23;man;fg;hand;schulter;fes;wea;spos;pos;ja;
+00:56:57;00:56:57;woman;fg;hand;schulter;zie;wea;pos;pos;ja;
+00:56:58;00:56:58;woman;fg;hand;arm;fueh;wea;pos;pos;ja;
+00:57:03;00:57:04;man;fg;hand;ruecken;weg;wea;spos;pos;ja;
+00:58:08;00:58:09;woman;crowd;arm hand;arm hand;weg;str;neg;neg;ja;
+00:58:13;00:58:14;woman;oldman;hand;ruecken;lag;str;sneg;neg;ja;
+00:58:15;00:58:15;woman;oldman;hand;brust;weg;wea;sneg;neg;ja;
+00:58:15;00:58:16;man;oldman;arm bauch brust hand;arm brust ruecken;fes;str;neg;neg;ja;narr
+00:58:32;00:58:33;woman;woman;hand;hand;sb;wea;neg;neg;nein;
+00:58:32;00:58:33;woman;woman;hand;hand;sb;wea;neg;neg;nein;
+00:58:44;00:58:56;man;fg;hand;schulter;arm;wea;spos;pos;ja;
+00:59:10;00:59:11;fg;crowd;arm;brust;sb;wea;spos;pos;nein;
+00:59:14;00:59:16;fg;crowd;arm;brust;sb;wea;spos;pos;nein;
+00:59:18;00:59:20;fg;crowd;arm;brust;sb;wea;spos;pos;nein;
+00:59:26;00:59:38;fg;jc;gesicht nacken hals schulter arm hand brust bauch huefte;arm bauch brust gesicht hand hals ruecken;hug;str;spos;spos;ja;narr
+00:59:26;00:59:38;jc;fg;arm bauch brust gesicht hand hals huefte ruecken;gesicht nacken hals schulter arm hand brust bauch huefte;hug;str;spos;spos;ja;narr
+00:59:38;00:59:46;fg;jc;arm ;arm hand ;ein;wea;pos;pos;ja;
+00:59:38;00:59:46;jc;fg;arm hand ;arm;ein;wea;pos;pos;ja;
+00:59:50;00:59:51;man;fg;hand;brust;weg;str;neg;neg;ja;
+00:59:53;00:59:55;man;fg;hand;arm bauch;abt;wea;neg;neg;ja;
+00:59:55;00:59:56;jc;man;hand;brust;weg;wea;neg;neg;ja;
+00:59:56;00:59:56;man;jc;hand;arm;lag;wea;neg;neg;ja;
+01:00:08;01:00:09;man;man;arm;arm;sb;wea;neg;neg;nein;
+01:00:19;01:00:21;jc;man;arm;arm;ein;wea;pos;neg;ja;
+01:00:23;01:00:24;man;man;arm schulter;arm schulter;sb;wea;neg;neg;nein;
+01:00:44;01:00:44;man;jc;hand;gesicht;fei;str;neg;sneg;ja;aud narr
+01:00:54;01:00:55;fg;man;arm bauch bein hand huefte;arm bauch bein huefte ruecken;weg;str;sneg;sneg;ja;aud narr
+01:00:56;01:00:57;fg;man;bein huefte;bein huefte;rin;str;sneg;sneg;ja;aud
+01:00:59;01:01:01;fg;man;hand;brust;fes;str;sneg;sneg;ja;
+01:00:59;01:00:59;fg;man;hand;bauch;hit;str;sneg;sneg;ja;aud narr
+01:01:00;01:01:00;fg;man;hand;bauch;hit;str;sneg;sneg;ja;aud narr
+01:01:01;01:01:01;fg;man;hand;bauch;hit;str;sneg;sneg;ja;aud narr
+01:01:03;01:01:05;jc;fg;hand;arm schulter;weg;str;sneg;neg;ja;narr
+01:01:05;01:01:06;jc;man;hand;arm bauch;sb;wea;neg;neg;ja;
+01:01:05;01:01:06;man;jc;arm;arm hand;zie;str;sneg;neg;ja;
+01:02:03;01:02:04;jc;fg;hand;arm schulter;klei;wea;pos;pos;ja;narr
+01:02:05;01:02:06;jc;fg;hand;arm;klei;wea;pos;pos;ja;narr
+01:02:26;01:02:31;jc;fg;arm hand;arm;ein;wea;pos;pos;ja;
+01:02:27;01:02:28;jc;fg;hand;arm;tae;wea;pos;spos;ja;
+01:02:55;01:02:56;jc;woman;arm;arm;nah;wea;pos;pos;nein;
+01:02:55;01:02:56;woman;jc;arm;arm;nah;wea;pos;pos;nein;
+01:04:04;01:04:05;fg;jc;hand;hand;hah;wea;pos;spos;ja;narr
+01:04:29;01:04:34;jc;fg;arm bauch brust hals kopf ruecken;arm brust gesicht hand hals kopf ruecken schulter;hug;wea;pos;spos;ja;narr
+01:04:30;01:04:32;fg;jc;hand;ruecken;tae;wea;spos;spos;ja;
+01:08:32;01:08:37;crowd;crowd;arm;arm;nah;wea;pos;pos;nein;
+01:08:44;01:08:45;crowd;crowd;arm;arm;nah;wea;pos;pos;nein;
+01:10:52;01:10:56;dt;fg;hand;schulter;klop;wea;pos;pos;ja;
+01:11:11;01:11:13;woman;dt;hand;schulter;sch;wea;pos;pos;ja;
+01:11:12;01:11:13;woman;dt;hand;kopf;sch;wea;pos;pos;ja;
+01:11:21;01:11:21;woman;dt;hand;kopf;sb;wea;pos;pos;ja;
+01:11:24;01:11:24;woman;dt;hand;kopf;klei;wea;pos;pos;ja;
+01:11:26;01:11:26;woman;dt;hand;kopf;fes;wea;pos;pos;ja;
+01:11:34;01:11:36;woman;woman;hand;brust;ans;wea;pos;pos;ja;
+01:11:37;01:11:38;woman;dt;gesicht;kopf;kuss;wea;pos;pos;ja;
+01:11:38;01:11:40;woman;fg;hand;schulter;ans;wea;pos;pos;ja;
+01:12:34;01:12:36;woman;fg;arm gesicht;gesicht nacken;kuss;wea;pos;pos;ja;narr
+01:12:34;01:12:36;woman;fg;arm gesicht;gesicht nacken;kuss;wea;pos;pos;ja;narr
+01:15:04;01:15:07;mg;fg;hand;schulter;fes;wea;spos;pos;ja;aud
+01:15:06;01:15:07;mg;fg;gesicht;gesicht;kuss;wea;spos;pos;ja;aud
+01:15:07;01:15:08;fg;mg;hand;schulter;tae;wea;pos;pos;ja;
+01:15:09;01:15:11;mg;fg;hand;hand;fueh;wea;spos;pos;ja;
+01:18:16;01:18:17;man;woman;hand;hand;fueh;wea;pos;pos;ja;
+01:18:44;01:18:46;man;jc;hand;ruecken;sch;wea;pos;neg;ja;narr
+01:21:40;01:21:41;fg;dt;hand;hand;haes;wea;spos;pos;ja;aud
+01:23:26;01:23:27;dt;fg;arm;schulter;sb;wea;neg;neg;nein;
+01:23:29;01:23:30;dt;fg;arm;schulter;sb;wea;neg;neg;nein;
+01:23:32;01:23:33;dt;fg;arm;schulter;sb;wea;neg;neg;nein;
+01:27:58;01:27:58;oldman;oldwoman;hand;hand;haes;wea;pos;pos;ja;
+01:27:58;01:27:58;oldwoman;oldman;hand;hand;haes;wea;pos;pos;ja;
+01:27:58;01:27:59;girl;woman;hand;hand;hah;wea;pos;pos;ja;
+01:27:58;01:27:59;woman;girl;hand;hand;hah;wea;pos;pos;ja;
+01:28:03;01:28:10;girl;boy;hand;schulter;arm;wea;pos;pos;ja;
+01:28:04;01:28:07;woman;boy;arm;arm brust;sb;wea;pos;pos;nein;
+01:28:06;01:28:10;girl;boy;arm;schulter;arm;wea;pos;pos;ja;
+01:30:19;01:30:29;jc;fg;arm bauch brust gesicht hand hals ruecken schulter;arm bauch brust gesicht hand hals nacken ruecken schulter;hug;str;spos;spos;ja;narr
+01:30:24;01:30:29;fg;jc;arm bauch brust gesicht hand hals nacken ruecken schulter;arm bauch brust gesicht hand hals ruecken schulter;hug;wea;spos;spos;ja;narr
+01:31:23;01:31:24;jc;fg;hand;schulter;arm;wea;pos;pos;ja;
+01:31:24;01:31:26;jc;fg;hand;arm schulter;sch;wea;pos;pos;ja;
+01:31:28;01:31:32;fg;jc;arm hand ruecken;arm hand;tanz;wea;pos;pos;ja;narr
+01:31:28;01:31:32;jc;fg;arm hand;arm hand ruecken;tanz;wea;pos;pos;ja;narr
+01:31:36;01:31:41;fg;jc;hand;hand;tanz;wea;pos;pos;ja;narr
+01:31:36;01:31:41;jc;fg;hand;hand;tanz;wea;pos;pos;ja;narr
+01:31:46;01:31:48;fg;jc;hand;hand;tanz;wea;pos;pos;ja;narr
+01:31:46;01:31:48;jc;fg;hand;hand;tanz;wea;pos;pos;ja;narr
+01:31:48;01:31:49;fg;jc;arm gesaess schulter;arm gesaess schulter;nah;wea;pos;pos;nein;
+01:31:48;01:31:49;jc;fg;arm gesaess schulter;arm gesaess schulter;nah;wea;pos;pos;nein;
+01:31:49;01:31:55;jc;fg;arm brust gesicht hand schulter ;arm ruecken schulter;sch;wea;spos;spos;ja;narr
+01:32:20;01:32:23;jc;fg;hand;ruecken schulter;sch;wea;pos;pos;ja;
+01:32:21;01:32:21;jc;fg;gesicht;kopf;kuss;wea;pos;pos;ja;aud narr
+01:33:48;01:34:22;jc;fg;arm bauch bein brust hand huefte ;bauch bein brust huefte schulter ;lie;str;spos;spos;ja;narr
+01:33:52;01:33:53;jc;fg;gesicht;gesicht;kuss;wea;spos;spos;ja;aud narr
+01:33:54;01:33:55;jc;fg;gesicht;gesicht;sch;wea;spos;pos;ja;
+01:33:56;01:34:09;fg;jc;gesicht;gesicht;kuss;wea;spos;spos;ja;aud narr
+01:33:56;01:34:09;jc;fg;gesicht;gesicht;kuss;wea;spos;spos;ja;aud narr
+01:34:03;01:34:11;fg;jc;arm hand;arm ruecken schulter;hug;str;spos;spos;ja;narr
+01:34:15;01:34:22;fg;jc;arm hand;ruecken schulter;hug;str;spos;spos;ja;narr
+01:38:44;01:38:45;fg;man;hand;arm;sb;wea;pos;pos;nein;
+01:38:44;01:38:45;man;fg;arm;hand;sb;wea;pos;pos;nein;
+01:38:45;01:38:45;fg;man;hand;arm;sb;wea;pos;pos;nein;
+01:38:45;01:38:45;fg;man;arm;arm;sb;wea;pos;pos;nein;
+01:38:46;01:38:46;fg;man;hand;arm;sb;wea;pos;pos;nein;
+01:38:46;01:38:47;fg;man;hand;arm;sb;wea;pos;pos;nein;
+01:38:48;01:38:48;fg;man;hand;arm;sb;wea;pos;pos;nein;
+01:38:48;01:38:48;fg;man;arm;arm;sb;wea;pos;pos;nein;
+01:38:49;01:38:49;fg;man;hand;arm;sb;wea;pos;pos;nein;
+01:38:50;01:38:54;fg;man;arm;arm;sb;wea;pos;pos;nein;
+01:38:58;01:38:58;fg;man;arm;arm;sb;wea;pos;pos;nein;
+01:39:55;01:39:55;man;fg;hand;schulter;klop;wea;spos;pos;ja;
+01:40:28;01:40:28;man;fg;hand;arm;sb;wea;neg;neg;nein;
+01:41:26;01:41:27;boy;man;arm hand;bauch;ans;wea;neg;neg;ja;
+01:42:19;01:42:20;man;man;arm schulter;arm schulter;sb;wea;sneg;sneg;nein;
+01:42:19;01:42:20;man;man;arm schulter;arm schulter;sb;wea;sneg;sneg;nein;
+01:43:09;01:43:10;fg;oldwoman;hand;hand;sb;wea;pos;pos;nein;
+01:43:09;01:43:10;oldwoman;fg;hand;hand;sb;wea;pos;pos;nein;
+01:43:24;01:43:26;jc;fg;arm bauch brust hand hals ruecken schulter;arm bauch brust hand hals ruecken schulter;hug;str;spos;pos;ja;narr
+01:43:25;01:43:25;fg;jc;hand;ruecken;tae;wea;spos;spos;ja;
+01:44:41;01:44:42;jc;boy;hand;schulter;lag;str;spos;pos;ja;narr
+01:44:42;01:44:44;jc;boy;arm bauch hand nacken schulter;arm gesaess hand;tra;str;pos;pos;ja;
+01:44:47;01:44:58;jc;boy; arm bauch hand nacken schulter;arm gesaess hand;tra;str;pos;pos;ja;narr
+01:44:53;01:44:53;jc;boy;hand;arm gesaess;fes;wea;pos;pos;ja;
+01:44:53;01:44:54;jc;boy;hand;arm;nah;wea;pos;pos;ja;
+01:44:54;01:44:58;jc;boy;hand;brust;tae;wea;pos;pos;ja;
+01:45:02;01:45:03;jc;boy;hand;brust;nah;wea;pos;pos;ja;
+01:45:03;01:45:04;jc;boy;arm hand schulter;arm schulter;lag;str;pos;pos;ja;narr
+01:45:44;01:45:45;jc;fg;hand;brust;sb;wea;pos;neg;ja;
+01:45:46;01:45:51;jc;fg;hand;hand;hah;wea;pos;neg;ja;narr
+01:47:54;01:47:55;oldman;oldwoman;hand;ruecken;sb;wea;pos;pos;ja;
+01:47:54;01:47:55;oldman;oldwoman;arm;hand;ein;wea;pos;pos;ja;
+01:47:54;01:47:55;oldwoman;oldman;hand;arm;ein;wea;pos;pos;ja;
+01:47:59;01:48:00;woman;fg;hand;schulter;ans;wea;pos;pos;ja;
+01:48:22;01:48:30;jc;fg;hand;bauch brust hals;klei;wea;pos;pos;ja;narr
+01:48:37;01:48:38;jc;fg;hand;brust;klei;wea;pos;spos;ja;narr
+01:48:38;01:48:39;jc;fg;hand;arm;sb;wea;pos;spos;ja;
+01:49:17;01:49:20;dt;woman;arm brust hand;ruecken schulter;arm;wea;spos;pos;ja;
+01:49:25;01:49:27;dt;woman;arm brust hand;ruecken schulter;arm;wea;spos;pos;ja;
+01:49:25;01:49:27;woman;dt;ruecken schulter;arm brust hand;arm;wea;pos;pos;ja;
+01:49:35;01:49:36;jc;dt;gesicht;gesicht;kuss;wea;spos;spos;ja;narr
+01:49:46;01:49:49;jc;boy;hand;arm;lag;wea;spos;pos;ja;
+01:49:50;01:49:59;fg;jc;hand;hand;hah;wea;spos;spos;ja;
+01:49:50;01:49:59;jc;fg;hand;hand;hah;wea;spos;spos;ja;
+01:49:53;01:49:59;dt;woman;hand;schulter;sch;wea;spos;spos;ja;
+01:50:02;01:50:07;fg;jc;hand;hand;hah;wea;pos;pos;ja;narr
+01:50:02;01:50:07;jc;fg;hand;hand;hah;wea;pos;pos;ja;narr
+01:50:06;01:50:13;fg;boy;hand;hand;hah;wea;pos;pos;ja;
+01:50:11;01:50:12;fg;jc;hand;hand;hah;wea;pos;pos;ja;
+01:50:11;01:50:12;jc;fg;hand;hand;hah;wea;pos;pos;ja;
+01:52:04;01:52:07;jc;fg;hand;hand;hah;wea;neg;pos;ja;narr
+01:53:02;01:53:03;fg;boy;gesicht;kopf;kuss;wea;pos;pos;ja;
+01:55:54;01:56:05;fg;boy;arm schulter;arm kopf schulter;nah;wea;pos;pos;nein;
+01:55:54;01:56:05;boy;fg;arm kopf schulter;arm schulter;nah;wea;pos;pos;nein;
+01:56:08;01:56:09;fg;boy;arm;arm;sb;wea;pos;pos;nein;
+01:56:11;01:56:11;fg;boy;arm;arm schulter;sb;wea;pos;pos;nein;
+01:56:14;01:56:15;fg;boy;hand;ruecken;fueh;wea;pos;pos;ja;
