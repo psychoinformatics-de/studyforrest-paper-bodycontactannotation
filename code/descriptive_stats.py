@@ -1,18 +1,20 @@
 #!/usr/bin/python
 
+from __future__ import print_function
 from os.path import join as opj
 import numpy as np
 from glob import glob
 from scipy.ndimage import label
 from statsmodels.stats.inter_rater import fleiss_kappa
+import sys
 
 
 # until the first black frame
 maxmovietime = 7082.2
 
 
-def load_annotations():
-    return [np.recfromcsv(obs) for obs in sorted(glob(opj('data', '*')))]
+def load_annotations(dir):
+    return [np.recfromcsv(obs) for obs in sorted(glob(opj(dir, '*')))]
 
 
 def get_timecode_stats(data, fx):
@@ -26,10 +28,19 @@ def get_value_union(data, var):
     return set(vals)
 
 
+def get_multivalue_union(data, var):
+    vals = set()
+    for d in data:
+        for v in d[var]:
+            vals = vals.union(v.split())
+    return vals
+
+
 def get_ioa_ts(data, props, match='contains'):
     # for every second
-    ioa = np.zeros(int(maxmovietime), dtype=int)
+    ioas = np.zeros(int(maxmovietime), dtype=int)
     for obs in data:
+        ioa = np.zeros(int(maxmovietime), dtype=int)
         for ev in obs:
             hit = True
             for k, v in props.items():
@@ -42,8 +53,10 @@ def get_ioa_ts(data, props, match='contains'):
                         hit = False
                         break
             if hit:
-                ioa[ev['start']:ev['end'] + 1] += 1
-    return ioa
+                ioa[int(ev['start']):int(ev['end']) + 1] += 1
+        ioa[ioa > 1] = 1
+        ioas += ioa
+    return ioas
 
 
 def get_events(data, aggreement=.5):
@@ -123,6 +136,7 @@ def _stats_helper(data, events, prop, categories, label, aggstr):
               fleiss_kappa(counts),
               '.2f'))
 
+
 def print_descriptive_stats_as_tex(data):
     nevents = [len(o) for o in data]
     print(_ft('NEventsMin', min(nevents), 'd'))
@@ -141,22 +155,14 @@ def print_descriptive_stats_as_tex(data):
         _stats_helper(data, events, 'intensity_of_body_contact', [1], 'IntenseStrong', aggstr)
         _stats_helper(data, events, 'intensity_of_body_contact', [0], 'IntenseWeak', aggstr)
         _stats_helper(data, events, 'intention', [1], 'Intention', aggstr)
-            
-        for val_a in ('STRONG_POSITIVE','POSITIVE','NEGATIVE','STRONG_NEGATIVE'):
-            _stats_helper(data, events, 'valence_actor', [val_a], 'Valence_actor' + val_a, aggstr)      
-    
-        for val_r in ('STRONG_POSITIVE','POSITIVE','NEGATIVE','STRONG_NEGATIVE'):
-            _stats_helper(data, events, 'valence_recipient', [val_r], 'Valence_recipient' + val_r, aggstr)
-       
-        for BP_a in ('HAND','SHOULDER','HEAD','FACE','NAPE','NECK','CHEST','ARM','ABDOMEN','BACK','HIP','BUTTOCKS','LAP','LEG','FOOT'):
-            _stats_helper(data, events, 'bodypart_actor', [BP_a], 'bodypart_actor' + BP_a, aggstr)
-        
-      
-        for BP_r in ('HAND','SHOULDER','HEAD','FACE','NAPE','NECK','CHEST','ARM','ABDOMEN','BACK','HIP','BUTTOCKS','LAP','LEG','FOOT'):
-            _stats_helper(data, events, 'bodypart_recipient', [BP_r], 'bodypart_recipient' + BP_r, aggstr)
+
+        for var in ('valence_actor', 'valence_recipient', 'bodypart_actor', 'bodypart_recipient'):
+            for value in get_multivalue_union(data, var):
+                print(var, value, file=sys.stderr)
+                _stats_helper(data, events, var, [value], var + value, aggstr)
 
 if __name__ == '__main__':
-    data = load_annotations()
+    data = load_annotations(sys.argv[1])
     print_descriptive_stats_as_tex(data)
 
     #import pylab as pl
