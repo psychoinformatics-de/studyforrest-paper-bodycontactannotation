@@ -35,14 +35,14 @@ people = {
 }
 
 bodyparts = {
-    "HAND": "HAND_ARM",
+    "HAND": "HAND",
     "SHOULDER": "BODY",
     "HEAD": "HEAD_NECK",
-    "FACE": "HEAD_NECK",
+    "FACE": "FACE",
     "NAPE": "HEAD_NECK",
     "NECK": "HEAD_NECK",
     "CHEST": "BODY",
-    "ARM": "HAND_ARM",
+    "ARM": "BODY",
     "ABDOMEN": "BODY",
     "BACK": "BODY",
     "HIP": "BODY",
